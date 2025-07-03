@@ -7,7 +7,42 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
+    <header>
     <h1>AI Recipe Generator</h1>
+    </header>
+    <main>
+        <form action="">
+        <label for="recipe-input">Recipe Name:</label>
+        <input type="text" name="recipe" id="recipe-input" placeholder="Enter a recipe name">
+        <button type="submit">Generate</button>
+        </form>
+        <div class="recipe-output">
+            <h2>Recipe</h2>
+            <p id="recipe-text">Your recipe will appear here...</p>
+            <p id="recipe-serving">Serving size: 4 people</p>
+        </div>
+        <div class="recipe-serving">
+            <h2>Serving size</h2>
+            <input type="number" name="serving" id="serving-input" placeholder="Enter a serving size">
+            <button type="submit">Generate</button>
+        </div>
+        <div class="recipe-serving">
+            <h2>Serving size</h2>
+            <p id="serving-text">Your serving size will appear here...</p>
+        </div>
+        <div class="recipe-ingredients">
+            <h2>Ingredients</h2>
+            <p id="ingredients-text">Your ingredients will appear here...</p>
+        </div>
+        <div class="recipe-instructions">
+            <h2>Instructions</h2>
+            <p id="instructions-text">Your instructions will appear here...</p>
+        </div>
+        <div class="recipe-tips">
+            <h2>Tips</h2>
+            <p id="tips-text">Your tips will appear here...</p>
+        </div>
+    </main>
     <footer>
       This project was coded by
       <a href="https://github.com/Maymoiz" target="_blank">Moisha Ndlovu</a>, is
