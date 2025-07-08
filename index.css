@@ -2,4 +2,19 @@ h1 {
   font-family: "Manufacturing Consent", system-ui;
   font-weight: 800;
   font-style: normal;
+  font-size: 60px;
+  color: black;
+  text-align: center;
+}
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+  color: blueviolet;
+  font-size: 50px;
+}
+.header {
+  background-image: url("your-image-url.jpg"); /* Replace with your actual image URL */
+  background-size: cover; /* Make sure the image covers the entire header */
+  background-position: center; /* Center the background image */
+  color: white; /* Optionally change text color for better visibility */
+  padding: 20px; /* Add some padding */
 }
