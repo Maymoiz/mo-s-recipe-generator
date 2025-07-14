@@ -1,3 +1,12 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(
+    109.6deg,
+    rgb(36, 45, 57) 11.2%,
+    rgb(16, 37, 60) 51.2%,
+    rgb(0, 0, 0) 98.6%
+  );
+}
 h1 {
   font-family: "Manufacturing Consent", system-ui;
   font-weight: 800;
@@ -5,6 +14,7 @@ h1 {
   font-size: 60px;
   color: black;
   text-align: center;
+  background: transparent;
 }
 .material-symbols-outlined {
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
@@ -12,9 +22,107 @@ h1 {
   font-size: 50px;
 }
 .header {
-  background-image: url("your-image-url.jpg"); /* Replace with your actual image URL */
-  background-size: cover; /* Make sure the image covers the entire header */
+  background-image: url("https://images.pexels.com/photos/1640773/pexels-photo-1640773.jpeg"); /* Replace with your actual image URL */
+  background-size: cover;
+  /* Make sure the image covers the entire header */
   background-position: center; /* Center the background image */
   color: white; /* Optionally change text color for better visibility */
   padding: 20px; /* Add some padding */
+  margin-bottom: 50px;
+  height: 250px; /* Set a fixed height for the header */
+}
+.main-content {
+  max-width: 1250px;
+
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 20px;
+}
+.recipe-label {
+  font-weight: bold;
+  font-size: 30px;
+  padding: auto;
+  margin: 5px 20px;
+}
+.recipe-input {
+  width: 400px;
+  padding: 10px 20px;
+  margin: 5px 30px;
+  font-size: 20px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+.submit {
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: blueviolet;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.recipe-output {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  text-align: center;
+}
+.recipe-image {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  text-align: center;
+}
+.recipe-ingredients {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+}
+.recipe-ingredients h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: blueviolet;
+}
+.recipe-ingredients p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+h2 {
+  font-size: 24px;
+  color: blueviolet;
+  margin-top: 20px;
+}
+.recipe-instructions {
+  margin-top: 20px;
+  padding: 20px;
+}
+.recipe-instructions h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: blueviolet;
+}
+.recipe-instructions p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+.recipe-tips {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: rgba(216, 112, 147, 0.342);
+  border-radius: 10px;
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f1f1f1;
+  margin-top: 20px;
+  border-radius: 10px;
 }
