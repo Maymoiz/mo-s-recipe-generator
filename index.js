@@ -14,5 +14,9 @@ function generateRecipe(event) {
     loop: true,
   });
 }
+
 let formElement = document.querySelector("#recipe-form");
 formElement.addEventListener("submit", generateRecipe);
+alert(
+  "Welcome to Mo's Recipe Generator! Please fill out the form to get started."
+);
