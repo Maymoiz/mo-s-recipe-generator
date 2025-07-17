@@ -93,9 +93,16 @@ h1 {
   line-height: 1.5;
 }
 h2 {
-  font-size: 24px;
+  font-size: 30px;
   color: blueviolet;
   margin-top: 20px;
+}
+h3 {
+  font-size: 20px;
+  color: rgb(226, 43, 195);
+  margin-top: 10px;
+  text-align: center;
+  text-decoration: underline;
 }
 .recipe-instructions {
   margin-top: 20px;
@@ -110,21 +117,22 @@ h2 {
   font-size: 18px;
   line-height: 1.5;
 }
-.recipe-tips {
-  margin-top: 20px;
-  padding: 20px;
-  background-color: rgba(216, 112, 147, 0.342);
-  border-radius: 10px;
-  width: 50%;
-  display: block;
-  margin: 0 auto;
-}
-.recipe-time {
-  margin-top: 20px;
-  padding: 20px;
-  background-color: #f9f9f9;
-  border-radius: 10px;
+#status-message {
+  font-size: 20px;
+  color: blueviolet;
   text-align: center;
+  margin-top: 20px;
+}
+/* Optional: Style the blinking cursor */
+#cursor {
+  font-weight: bold;
+  animation: blink 1s step-start infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
 }
 footer {
   text-align: center;
