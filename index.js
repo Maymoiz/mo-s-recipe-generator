@@ -6,7 +6,7 @@ function displayRecipe(response) {
   }
 
   const recipe = response.data.answer;
-  const recipeSteps = Array.isArray(recipe) ? recipe : [recipe];
+  
 
   new Typewriter("#typewriter", {
     strings: recipeSteps,
