@@ -26,6 +26,7 @@ h1 {
 }
 .generating {
   animation: blink-animation 1s steps(5, start) infinite;
+  text-align: center;
 }
 
 @keyframes blink-animation {

@@ -31,7 +31,7 @@ function generateRecipe(event) {
   )}&context=${encodeURIComponent(context)}&key=${apiKey}`;
 
   let recipeElement = document.querySelector("#recipe");
-  recipeElement.innerHTML = `<div class="generating hidden">⏳ Generating your ${recipeInput.value} recipe...</div>`;
+  recipeElement.innerHTML = `<div class="generating ">🍲🍲🍲</div>`;
 
   axios
     .get(apiUrl)
