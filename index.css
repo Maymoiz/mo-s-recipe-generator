@@ -21,6 +21,23 @@ h1 {
   margin-bottom: 50px;
   height: 250px;
 }
+.hidden {
+  display: none;
+}
+.generating {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
 body {
   margin: 0;
   padding: 10px;

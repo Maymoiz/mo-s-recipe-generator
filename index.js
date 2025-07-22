@@ -15,10 +15,10 @@ function displayRecipe(response) {
 }
 function generateRecipe(event) {
   event.preventDefault();
-  document.querySelector("#status-message").innerHTML =
-    'Generating Recipe...<span id="cursor">|</span>';
+
   let recipeInput = document.querySelector("#recipe-input");
   let recipeValue = recipeInput.value.trim();
+
   let apiKey = "6b0de8c4f230fd2bf4t68daf5046oe9a";
 
   let prompt = `Create a recipe for ${recipeValue} that includes <h3>ingredients</h3>, <h3>instructions</h3>, <h3>cooking time</h3> and <h3>serving</h3>. `;
@@ -30,9 +30,8 @@ function generateRecipe(event) {
     prompt
   )}&context=${encodeURIComponent(context)}&key=${apiKey}`;
 
-  console.log("Generating recipe...");
-  console.log("prompt:", prompt);
-  console.log("context:", context);
+  let recipeElement = document.querySelector("#recipe");
+  recipeElement.innerHTML = `<div class="generating hidden">⏳ Generating your ${recipeInput.value} recipe...</div>`;
 
   axios
     .get(apiUrl)
