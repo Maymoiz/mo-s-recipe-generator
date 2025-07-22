@@ -13,14 +13,13 @@ h1 {
   font-size: 50px;
 }
 .header {
-  background-image: url("https://images.pexels.com/photos/1640773/pexels-photo-1640773.jpeg"); /* Replace with your actual image URL */
+  background-image: url("https://images.pexels.com/photos/1640773/pexels-photo-1640773.jpeg");
   background-size: cover;
-  /* Make sure the image covers the entire header */
-  background-position: center; /* Center the background image */
-  color: white; /* Optionally change text color for better visibility */
-  padding: 20px; /* Add some padding */
+  background-position: center;
+  color: white;
+  padding: 20px;
   margin-bottom: 50px;
-  height: 250px; /* Set a fixed height for the header */
+  height: 250px;
 }
 body {
   margin: 0;
@@ -118,6 +117,7 @@ h3 {
   margin-top: 10px;
   text-align: center;
   text-decoration: underline;
+  font-style: bold;
 }
 .recipe-instructions {
   margin-top: 20px;
