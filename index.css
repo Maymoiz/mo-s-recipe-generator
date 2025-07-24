@@ -6,20 +6,23 @@ h1 {
   color: black;
   text-align: center;
   background: transparent;
+  margin: 100px 0 -50px;
 }
+
 .material-symbols-outlined {
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
   color: blueviolet;
-  font-size: 50px;
+  font-size: 90%;
 }
+
 .header {
   background-image: url("https://images.pexels.com/photos/1640773/pexels-photo-1640773.jpeg");
   background-size: cover;
   background-position: center;
   color: white;
-  padding: 20px;
+  padding: 40px 20px 20px;
   margin-bottom: 50px;
-  height: 250px;
+  min-height: 300px;
 }
 .hidden {
   display: none;
@@ -51,18 +54,10 @@ body {
   );
 }
 
-/* Ensuring all images are responsive */
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-/* Example of a responsive container */
 .main-content {
-  margin: auto;
   padding: 15px;
-  max-width: 1250px;
-  max-height: 1200px;
+  max-width: 99%;
+  max-height: auto;
   padding: 15px;
   margin: 0 auto;
   background-color: white;
@@ -83,7 +78,7 @@ img {
   margin: 5px 20px;
 }
 .recipe-input {
-  width: 400px;
+  width: 40%;
   padding: 10px 20px;
   margin: 5px 30px;
   font-size: 20px;
