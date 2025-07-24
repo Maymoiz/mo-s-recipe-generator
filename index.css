@@ -5,13 +5,13 @@ h1 {
   font-size: 60px;
   color: black;
   text-align: center;
-  background: transparent;
-  margin: 100px 0 -50px;
+  background: rgba(128, 128, 128, 0.014);
+  padding: 80px;
+  margin: auto;
 }
 
 .material-symbols-outlined {
-  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
-  color: blueviolet;
+  font-family: "Material Icons Outlined";
   font-size: 90%;
 }
 
@@ -20,9 +20,9 @@ h1 {
   background-size: cover;
   background-position: center;
   color: white;
-  padding: 40px 20px 20px;
+  padding: 20px;
   margin-bottom: 50px;
-  min-height: 300px;
+  height: 250px;
 }
 .hidden {
   display: none;
